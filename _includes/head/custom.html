@@ -8,3 +8,5 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+<!--Fix issue caused by browsers capturing clicks on child elements of the copy button-->
+<style>.clipboard-copy-button * { pointer-events: none; }</style>
